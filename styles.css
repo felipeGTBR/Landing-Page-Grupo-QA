@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Fredoka:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cyan1: #b3ebf2;
+    --blue1: #4682B4;
+    --white: #fff;
+    --black: #000000;
+}
+
+body{
+    background-color: var(--blue1);
+    height: 100vh;
+    font-family: "Fredoka", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: var(--cyan1);
+    min-height: 50px;
+}
+
+.box-img-header{
+    height: 100%;   
+}
+
+.img-logo{
+    max-width: 180px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: var(--black);
+}
