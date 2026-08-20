@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Fredoka:wght@300..700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cyan1: #b3ebf2;
+    --blue1: #4682B4;
+    --white: #fff;
+    --black: #000000;
+    --gray: #787D7C;
+    --orange: #FDAD30;
+    --blue2: #005693;
+    --yellow: #F78C1E;
+}
+
+body{
+    background-color: var(--blue1);
+    height: 100vh;
+    font-family: "Fredoka", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: var(--cyan1);
+    min-height: 50px;
+    border: 2px solid var(--orange)
+}
+
+.box-img-header{
+    height: 100%;   
+}
+
+.img-logo{
+    max-width: 180px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.nav-links:hover{
+    color: var(--white);
+    transition: .4s;
+    text-decoration: underline;
+}
+
+.box-btn-actions{
+    display: flex;
+    gap: 1rem;
+}
+
+:is(button,.link-action){
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn-action{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+.btn-action:hover{
+    background-color: var(--orange);
+    border: 1px solid var(--black);
+}
+
+.link-action{
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid var(--orange);
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+section{
+    padding: 4rem;
+
+}
+
+.primeira-sessao{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 450px;
+}
+
+.primeira-sessao > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 250px;
+}
+
+h1{
+    font-size: 4rem;
+    color: var(--black);
+}
+
+h2{
+    color: var(--black);
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.box-img-main{
+    max-width: 720px;
+    padding: 1rem;
+}
+
+.img-profile{
+    border: 10px solid var(--orange);
+    border-radius: 10%;
+    width: 150%;
+}
+
+.segunda-sessao{
+    background-color: var(--blue2);
+}
+
+.professorcarrasco{
+    max-width: 720px;
+    padding: 1rem;
+}
+
+.imagemprofessor{
+    border: 10px solid var(--orange);
+    border-radius: 10%;
+    width: 150%;
+}
+
+.terceira-sessao{
+    background-color: var(--blue2);
+}
+
+.quarta-sessao{
+    background-color: var(--blue1);
+}
+
+.quinta-sessao{
+    background-color: var(--blue2);
+}
+
+.img-roadmap{
+    max-width: 720px;
+    padding: 1rem;
+}
+
+.roadmapsala{
+    border: 4px solid var(--orange);
+    border-radius: 15%;
+    width: 150%;
+}
+
+.sexta-sessao{
+    background-color: var(--cyan1);
+}
